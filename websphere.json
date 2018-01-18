@@ -1,0 +1,24 @@
+{
+    "WebSphere" : {
+        "title" : "WebSphere Log Format",
+        "description" : "Log format used from WebSphere.",
+        "regex" : {
+            "basic" : {
+				"pattern" : "^\\[(?<timestamp>\\d{2}.\\d{2}.\\d{2} \\d{2}:\\d{2}:\\d{2}:\\d{3}) \\w{3}\\] \\w+ \\w+ (?<level>\\w+) (?<body>.*)$"
+            }
+        },
+		"timestamp-format" : [ 
+			 "%d.%m.%y %H:%M:%S:%L"
+		],
+        "level" : {
+            "error" : "E",
+            "warning" : "W",
+            "info": "I"
+        },
+        "sample" : [
+            {
+                "line" : "[16.01.18 15:31:03:366 MEZ] 00000020 LocalTranCoor E   WLTC0017E: Es wurde eine ROLLBACK-Operation für die Ressourcen ausgefuehrt, weil setRollbackOnly() aufgerufen wurde."
+            }
+        ]
+    }
+}
