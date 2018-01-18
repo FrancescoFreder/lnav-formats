@@ -9,6 +9,7 @@
         },
 		"timestamp-format" : [ 
 			 "%d.%m.%y %H:%M:%S:%L",
+			 "%m/%d/%y %H:%M:%S:%L",
 			 "%m/%d/%y %l:%M:%S:%L"
 		],
         "level" : {
@@ -19,7 +20,10 @@
         "sample" : [
             {
                 "line" : "[16.01.18 15:31:03:366 MEZ] 00000020 LocalTranCoor E   WLTC0017E: Es wurde eine ROLLBACK-Operation fÃ¼r die Ressourcen ausgefuehrt, weil setRollbackOnly() aufgerufen wurde."
-            }, 
+            },             
+            {
+                "line" : "[1/18/18 15:14:47:802 CET] 00000000 PluginConfigS W   PLGC0057I: The plug-in configuration service started successfully."
+            },
             {
                 "line" : "[1/18/18 8:31:20:114 CET] 00000000 ManagerAdmin  I   TRAS0017I: The startup trace state is *=info. "
             }
