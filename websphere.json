@@ -9,8 +9,7 @@
         },
 		"timestamp-format" : [ 
 			 "%d.%m.%y %H:%M:%S:%L",
-			 "%m/%d/%y %H:%M:%S:%L",
-			 "%m/%d/%y %l:%M:%S:%L"
+			 "%m/%e/%y %k:%M:%S:%L"
 		],
         "level" : {
             "error" : "E",
@@ -26,6 +25,9 @@
             },
             {
                 "line" : "[1/18/18 8:31:20:114 CET] 00000000 ManagerAdmin  I   TRAS0017I: The startup trace state is *=info. "
+            },
+            {
+                "line" : "[1/3/18 8:18:54:744 CET] 00000000 TCPChannel    I   TCPC0001I: TCP Channel TCP_1 is listening on host *  (IPv6) port 9060."
             }
         ]
     }
